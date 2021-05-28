@@ -1,0 +1,111 @@
+
+body {
+    background: #050c14;
+    padding: 20px;
+    font-family: Helvetica;
+    width: 800px;
+    height: 500px !important;
+}
+
+html {
+    background: #0d283d;
+    color: white;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#cameraShake,
+#invertSwivel {
+    width: 30px;
+}
+
+    input[type=button]:hover,
+    #cameraShake:hover,
+    #invertSwivel:hover {
+        cursor: pointer;
+    }
+
+div[id*="slider"] {
+    background: #0d283d;
+    margin-top: 3px;
+}
+
+#readMe {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: white;
+}
+
+.column {
+    float: left;
+}
+
+
+
+.row: after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.left {
+    width: 20%;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.middle {
+    width: 60%;
+}
+
+.right {
+    width: 10%;
+}
+
+input[type=text] {
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    margin-bottom: 20px;
+    cursor: none;
+}
+
+.right input[type=text] {
+    padding-left: 20px;
+}
+
+#clear {
+    float: right;
+}
+
+#generate,
+#clear {
+    background-color: #0d283d;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#difference,
+#difficulty {
+    margin-left: 20px;
+}
+
+    #difference:hover,
+    #difficulty:hover {
+        cursor: default;
+    }

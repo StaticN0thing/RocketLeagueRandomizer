@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="site.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <p id="readMe">
+        *Hover items to learn more about them.
+    </p>
+
+    <input type="button" id="generate" value="Generate" title="Randomize Rocket League Camera Settings" />
+    <input type="button" id="clear" value="Reset" title="Reset settings to minimum values" />
+    <span id="difference" title="The percentage different from based on the variables set at the top of the script file">0% Difference</span>
+    <span title="Difficulty based on the percentage different (0% Easy, 33% Medium, 66% Hard)" id="difficulty" style="color:green;">Easy</span>
+    <br />
+
+    <div class="row">
+        <div class="column left">
+            <span>CAMERA SHAKE</span>
+        </div>
+        <div class="column middle">
+            <input type="text" id="cameraShake" value="Off" title="Click to change" readonly>
+        </div>
+        <div class="column right">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column left">
+            <span>FIELD OF VIEW</span>
+        </div>
+        <div class="column middle">
+            <div id="slider"></div>
+        </div>
+        <div class="column right">
+            <input type="text" id="fieldOfViewTxt" readonly>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column left">
+            <span>DISTANCE</span>
+        </div>
+        <div class="column middle">
+            <div id="slider2"></div>
+        </div>
+        <div class="column right">
+            <input type="text" id="distanceTxt" readonly>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column left">
+            <span>HEIGHT</span>
+        </div>
+        <div class="column middle">
+            <div id="slider3"></div>
+        </div>
+        <div class="column right">
+            <input type="text" id="heightTxt" readonly>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column left">
+            <span>ANGLE</span>
+        </div>
+        <div class="column middle">
+            <div id="slider4"></div>
+        </div>
+        <div class="column right">
+            <input type="text" id="angleTxt" readonly>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column left">
+            <span>STIFFNESS</span>
+        </div>
+        <div class="column middle">
+            <div id="slider5"></div>
+        </div>
+        <div class="column right">
+            <input type="text" id="stiffnessTxt" readonly>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column left">
+            <span>SWIVEL SPEED</span>
+        </div>
+        <div class="column middle">
+            <div id="slider6"></div>
+        </div>
+        <div class="column right">
+            <input type="text" id="swivelTxt" readonly>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column left">
+            <span>TRANSITION SPEED</span>
+        </div>
+        <div class="column middle">
+            <div id="slider7"></div>
+        </div>
+        <div class="column right">
+            <input type="text" id="transitionTxt" readonly>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column left">
+            <span>INVERT SWIVEL</span>
+        </div>
+        <div class="column middle">
+            <input type="text" id="invertSwivel" value="Off" title="Click to change" readonly>
+        </div>
+        <div class="column right">
+        </div>
+    </div>
+
+</body>
+
+</html>
+
